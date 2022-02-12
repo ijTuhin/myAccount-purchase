@@ -20,83 +20,80 @@
         <div class="container">
             <div class="row  gx-5">
                 <div class="col-6 p-3 border rounded bg-light">
-                    <!-- part 1 -->
-                    <div class="row">
+                    <!-- section 1 -->
+                    <section class="p-3">
                         <h5 class="fw-lighter">1.Choose your plan</h5>
-                    </div>
-                    <!-- part 2 -->
-                    <div class="row p-3">
-                        <div class="d-flex justify-content-between ">
+                    </section>
+                    <!-- section 2 -->
+                    <section class="p-3">
+                        <!-- section 2 heading -->
+                        <div class="d-flex justify-content-between">
                             <h5 class="fw-lighter">2.Tell us about yourself</h5>
                             <a href="#" class="text-decoration-none fw-normal">or <span class="text-primary">use
                                     existing
                                     Dropbox account.</span></a>
                         </div>
-                        <!-- 1st 2 Input  -->
-                        <form action="">
-                            <div class="d-flex justify-content-between">
-                                <div class="w-50">
-                                    <label for="inputFirstName" class=" col-form-label">First Name</label>
-                                    <div>
-                                        <input type="text" class="form-control" id="inputFirstName">
-                                    </div>
-                                </div>
-                                <div class="w-50">
-                                    <label for="inputLastName" class=" col-form-label">Last Name</label>
-                                    <div>
-                                        <input type="text" class="form-control" id="inputLastName">
-                                    </div>
+                        <!-- Section 2 input part 1 -->
+                        <div class="row">
+                            <div class="col-6 border">
+                                <label for="inputFirstName" class=" col-form-label">First Name</label>
+                                <div>
+                                    <input type="text" class="form-control" id="inputFirstName">
                                 </div>
                             </div>
-
-                            <!-- 2 Input  -->
-                            <div class="d-flex justify-content-between">
-                                <div class="w-50">
-                                    <label for="inputEmail" class=" col-form-label">Email</label>
-                                    <div>
-                                        <input type="email" class="form-control" id="inputEmail">
-                                    </div>
-                                </div>
-                                <div class="w-50">
-                                    <label for="inputPassword" class=" col-form-label">Password</label>
-                                    <div>
-                                        <input type="password" class="form-control" id="inputPassword">
-                                    </div>
+                            <div class="col-6 border">
+                                <label for="inputLastName" class=" col-form-label">Last Name</label>
+                                <div>
+                                    <input type="text" class="form-control" id="inputLastName">
                                 </div>
                             </div>
-
-                            <!-- 3 Input  -->
-                            <div class="d-flex justify-content-between">
-                                <div class="">
-                                    <label for="inputTeamName" class=" col-form-label">Team Name</label>
-                                    <div>
-                                        <input type="text" class="form-control" id="inputTeamName">
-                                    </div>
-                                </div>
-                                <div class="">
-                                    <label for="inputContactTelephone" class=" col-form-label">Contact
-                                        Telephone</label>
-                                    <div>
-                                        <input type="text" class="form-control" id="inputContactTelephone">
-                                    </div>
-                                </div>
-                                <div class="">
-                                    <label for="inputCompanySize" class=" col-form-label">Company size</label>
-                                    <div class="dropdown">
-                                        <button class="btn btn-light border dropdown-toggle" type="button"
-                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Below 50
-                                        </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                    </div>
+                        </div>
+                        <!-- Section 2 input part 2 -->
+                        <div class="row">
+                            <div class="col-6 border">
+                                <label for="inputEmail" class=" col-form-label">Email</label>
+                                <div>
+                                    <input type="email" class="form-control" id="inputEmail">
                                 </div>
                             </div>
-                        </form>
-                    </div>
+                            <div class="col-6 border">
+                                <label for="inputPassword" class=" col-form-label">Password</label>
+                                <div>
+                                    <input type="password" class="form-control" id="inputPassword">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Section 2 input part 3 -->
+                        <div class="row">
+                            <div class="col-4 border">
+                                <label for="inputTeamName" class=" col-form-label">Team Name</label>
+                                <div>
+                                    <input type="text" class="form-control" id="inputTeamName">
+                                </div>
+                            </div>
+                            <div class="col-4 border">
+                                <label for="inputContactTelephone" class=" col-form-label">Contact
+                                    Telephone</label>
+                                <div>
+                                    <input type="text" class="form-control" id="inputContactTelephone">
+                                </div>
+                            </div>
+                            <div class="col-4 border">
+                                <label for="inputCompanySize" class=" col-form-label">Company size</label>
+                                <div class="dropdown">
+                                    <button class="btn btn-light border dropdown-toggle ps-5" type="button"
+                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true">
+                                        Below 50
+                                    </button>
+                                    <ul class="dropdown-menu pe-5" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                     <!-- part 3 -->
                     <div class="row">
                         <h5 class="fw-lighter">3.Enter payment details</h5>
