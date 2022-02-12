@@ -18,6 +18,7 @@
     </header>
     <main>
         <div class="container">
+            <!-- left side  -->
             <div class="row  gx-5">
                 <div class="col-6 p-3 border rounded bg-light">
                     <!-- section 1 -->
@@ -35,14 +36,14 @@
                         </div>
                         <!-- Section 2 input part 1 -->
                         <div class="row">
-                            <div class="col-6 border">
-                                <label for="inputFirstName" class=" col-form-label">First Name</label>
+                            <div class="col-6">
+                                <label for="inputFirstName" class=" col-form-label"><small>First Name</small></label>
                                 <div>
                                     <input type="text" class="form-control" id="inputFirstName">
                                 </div>
                             </div>
-                            <div class="col-6 border">
-                                <label for="inputLastName" class=" col-form-label">Last Name</label>
+                            <div class="col-6">
+                                <label for="inputLastName" class=" col-form-label"><small>Last Name</small></label>
                                 <div>
                                     <input type="text" class="form-control" id="inputLastName">
                                 </div>
@@ -50,14 +51,14 @@
                         </div>
                         <!-- Section 2 input part 2 -->
                         <div class="row">
-                            <div class="col-6 border">
-                                <label for="inputEmail" class=" col-form-label">Email</label>
+                            <div class="col-6">
+                                <label for="inputEmail" class=" col-form-label"><small>Email</small></label>
                                 <div>
                                     <input type="email" class="form-control" id="inputEmail">
                                 </div>
                             </div>
-                            <div class="col-6 border">
-                                <label for="inputPassword" class=" col-form-label">Password</label>
+                            <div class="col-6">
+                                <label for="inputPassword" class=" col-form-label"><small>Password</small></label>
                                 <div>
                                     <input type="password" class="form-control" id="inputPassword">
                                 </div>
@@ -65,21 +66,22 @@
                         </div>
                         <!-- Section 2 input part 3 -->
                         <div class="row">
-                            <div class="col-4 border">
-                                <label for="inputTeamName" class=" col-form-label">Team Name</label>
+                            <div class="col-4">
+                                <label for="inputTeamName" class=" col-form-label"><small>Team Name</small></label>
                                 <div>
                                     <input type="text" class="form-control" id="inputTeamName">
                                 </div>
                             </div>
-                            <div class="col-4 border">
-                                <label for="inputContactTelephone" class=" col-form-label">Contact
-                                    Telephone</label>
+                            <div class="col-4">
+                                <label for="inputContactTelephone" class=" col-form-label"><small>Contact
+                                        Telephone</small></label>
                                 <div>
                                     <input type="text" class="form-control" id="inputContactTelephone">
                                 </div>
                             </div>
-                            <div class="col-4 border">
-                                <label for="inputCompanySize" class=" col-form-label">Company size</label>
+                            <div class="col-4">
+                                <label for="inputCompanySize" class=" col-form-label"><small>Company
+                                        size</small></label>
                                 <div class="dropdown">
                                     <button class="btn btn-light border dropdown-toggle ps-5" type="button"
                                         id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true">
@@ -94,11 +96,59 @@
                             </div>
                         </div>
                     </section>
-                    <!-- part 3 -->
-                    <div class="row">
+                    <!-- section 3 -->
+                    <section class="p-3">
                         <h5 class="fw-lighter">3.Enter payment details</h5>
-                    </div>
-                    <!-- part 4 -->
+                        <!-- radio button for payment method option  -->
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                value="option1">
+                            <label class="form-check-label" for="inlineRadio1">1</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                value="option2">
+                            <label class="form-check-label" for="inlineRadio2">2</label>
+                        </div>
+                        <!-- <div class="row">
+                            <div class="col-6 border">
+                                <small class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        Default radio
+                                    </label>
+                                </small>
+                            </div>
+                            <div class="col-6 border">
+                                <small class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        Default checked radio
+                                    </label>
+                                </small>
+                            </div>
+                        </div> -->
+                        <div class="row">
+                            <div class="col-sm">
+                                <label for="inputCreditCardNumber" class=" col-form-label"><small>Credit Card
+                                        Number</small></label>
+                                <div>
+                                    <input type="text" class="form-control" id="inputCreditCardNumber">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 border">something</div>
+                            <div class="col-6 border">something</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 border">something</div>
+                            <div class="col-8 border">something</div>
+                        </div>
+                    </section>
+                    <!-- section 4 -->
                     <div class="row">
                         <h5 class="fw-lighter">4.</h5>
                     </div>
