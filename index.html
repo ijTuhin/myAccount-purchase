@@ -19,7 +19,7 @@
         <small class="fw-bolder">or <span class="text-primary">try free for 30 days.</span></small>
     </header>
     <main>
-        <div class="container">
+        <div class="container mb-5">
             <!-- left side  -->
             <div class="row  gx-5">
                 <div class="col-6 p-3 border rounded bg-light">
@@ -104,13 +104,13 @@
                         <!-- radio button section for payment method option  -->
                         <div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                    value="option1">
+                                <input class="form-check-input radio-width" type="radio" name="inlineRadioOptions"
+                                    id="inlineRadio1" value="option1">
                                 <label class="form-check-label" for="inlineRadio1">1</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                    value="option2">
+                                <input class="form-check-input radio-width" type="radio" name="inlineRadioOptions"
+                                    id="inlineRadio2" value="option2">
                                 <label class="form-check-label" for="inlineRadio2">2</label>
                             </div>
                         </div>
@@ -124,6 +124,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- part 3  -->
                         <div class="row">
                             <div class="col-6">
                                 <label for="inputSecurityCode" class=" col-form-label"><small>Security
@@ -140,9 +141,16 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- part 4 -->
                         <div class="row">
-                            <div class="col-4 border">something</div>
-                            <div class="col-8 border">
+                            <div class="col-4">
+                                <label for="inputPostalCode" class=" col-form-label"><small>Postal code</small></label>
+                                <div>
+                                    <input type="text" class="form-control bg-secondary" id="inputExpirationDate">
+                                </div>
+
+                            </div>
+                            <div class="col-8">
                                 <label for="inputCountry" class=" col-form-label"><small>Country</small></label>
                                 <div class="dropdown">
                                     <button class="dropdown-width btn btn-light border dropdown-toggle" type="button"
@@ -157,10 +165,22 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- part 5  -->
+                        <div class="row p-3">
+                            <div class="form-check">
+                                <input class="form-check-input radio-width" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    <small>I agree to the <span class="text-primary">Dropbox Business Agreement</span>
+                                        and
+                                        <span class="text-primary">Terms.</span></small>
+                                </label>
+                            </div>
+                        </div>
                     </section>
                     <!-- section 4 -->
-                    <div class="row">
-                        <h5 class="fw-lighter">4.</h5>
+                    <div class="row pe-4 ps-4 mb-2">
+                        <!-- <h5 class="fw-lighter">4.</h5> -->
+                        <button class="btn btn-primary " type="button">Complete Purchase</button>
                     </div>
                 </div>
 
