@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/800f627ef0.js" crossorigin="anonymous"></script>
     <!-- Bootstrap link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -16,7 +18,9 @@
 <body>
     <header class="text-center m-5">
         <h2 class="fw-lighter">Purchase Dropbox Business</h2>
-        <small class="fw-bolder">or <span class="text-primary">try free for 30 days.</span></small>
+        <a href="http://#" class="text-decoration-none"><small class="fw-bolder">or <span class="text-primary">try free
+                    for 30
+                    days.</span></small></a>
     </header>
     <main>
         <div class="container mb-5">
@@ -36,13 +40,14 @@
                             </div>
                             <div class="col-4 text-center p-0 m-0">
                                 <div class="card">
-                                    <div class="card-header">
-                                        Most Popular
+                                    <div class="card-header middle-card  text-light">
+                                        <b>Most Popular</b>
                                     </div>
-                                    <div>
-                                        <p>Billed yearly (<span>save 20%</span>)</p>
-                                        <small>$20 / user / month</small><br>
-                                        <small>$1200 <span>changed yearly</span></small>
+                                    <div class="p-3 border border-middle-card">
+                                        <b>Billed yearly (<span class="text-success">save 20%</span>)</b>
+                                        <p></p>
+                                        <small><b>$20 / user / month</b></small><br>
+                                        <small><b>$1200 </b><span>changed yearly</span></small>
                                     </div>
                                 </div>
                             </div>
@@ -51,7 +56,7 @@
                                 <div class=" bg-light pb-4 pt-3">
                                 </div>
                                 <div class="card">
-                                    <div>
+                                    <div class="p-3">
                                         <p>Billed monthly</p>
                                         <small><b>$20 / user / month</b></small><br>
                                         <small><b>$1200</b> changed yearly</small>
@@ -65,9 +70,9 @@
                         <!-- section 2 heading -->
                         <div class="d-flex justify-content-between">
                             <h5 class="fw-lighter">2.Tell us about yourself</h5>
-                            <a href="#" class="text-decoration-none fw-normal">or <span class="text-primary">use
-                                    existing
-                                    Dropbox account.</span></a>
+                            <a href="#" class="text-decoration-none fw-normal">or <span class="text-primary"><small>use
+                                        existing
+                                        Dropbox account.</small></span></a>
                         </div>
                         <!-- Section 2 input part 1 -->
                         <div class="row">
@@ -118,8 +123,9 @@
                                 <label for="inputCompanySize" class=" col-form-label"><small>Company
                                         size</small></label>
                                 <div class="dropdown">
-                                    <button class="btn btn-light border dropdown-toggle ps-5" type="button"
-                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true">
+                                    <button class="btn btn-light border dropdown-toggle ps-5 dropdown-width"
+                                        type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                        aria-expanded="true">
                                         Below 50
                                     </button>
                                     <ul class="dropdown-menu pe-5" aria-labelledby="dropdownMenuButton1">
@@ -135,16 +141,24 @@
                     <section class="p-3">
                         <h5 class="fw-lighter">3.Enter payment details</h5>
                         <!-- radio button section for payment method option  -->
-                        <div>
+                        <div class="d-flex ">
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input radio-width" type="radio" name="inlineRadioOptions"
                                     id="inlineRadio1" value="option1">
-                                <label class="form-check-label" for="inlineRadio1">1</label>
+                                <label class="form-check-label" for="inlineRadio1">
+                                    <div>
+                                        <img src="logos/visa.png" alt="" class="logo-width">
+                                        <img src="logos/mastercard-svgrepo-com.svg" alt="" class="logo-width">
+                                        <img src="logos/discover.png" alt="" class="logo-width">
+                                    </div>
+                                </label>
                             </div>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input radio-width" type="radio" name="inlineRadioOptions"
                                     id="inlineRadio2" value="option2">
-                                <label class="form-check-label" for="inlineRadio2">2</label>
+                                <label class="form-check-label" for="inlineRadio2">
+                                    <img src="logos/paypal.png" alt="" class="second-logo-width">
+                                </label>
                             </div>
                         </div>
                         <!-- credit card  -->
@@ -219,9 +233,57 @@
 
                 <!-- rightside  -->
                 <div class="col-4 p-3 border">
-                    <section></section>
-                    <section></section>
-                    <section></section>
+                    <section class="ps-4 pt-4">
+                        <p>What is Dropbox Business?</p>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <small>Individual Dropbox account for each user</small>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <small>Space for your team to share and collaborate</small>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <small>120 days of file recovery and versioning</small>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <small>Admin controls and priority support</small>
+                        </div>
+                    </section>
+                    <section class="ps-4 pt-5">
+                        <span>Accepted payment types</span><br>
+                        <img src="logos/visa.png" alt="" class="logo-width-lg">
+                        <img src="logos/mastercard-svgrepo-com.svg" alt="" class="logo-width-lg">
+                        <img src="logos/discover.png" alt="" class="logo-width-lg">
+                        <img src="logos/paypal.png" alt="" class="logo-width-lg"><br>
+                        <small>For 15 or more licenses, we accepted by bank transfer or check. Please <span
+                                class="text-info">contact sales</span> for an invoice.</small>
+                        <div></div>
+                    </section>
+                    <section class="ps-4 mt-5">
+                        <div class="border rounded p-3">
+                            <p>Order summary</p>
+                            <div class="row">
+                                <div class="col-6">Item</div>
+                                <div class="col-6">Price</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">5 users</div>
+                                <div class="col-6">$1,500 per year</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 text-success">Yearly savings (20%)</div>
+                                <div class="col-6 text-success">-$300</div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-6"><b>Total</b></div>
+                                <div class="col-6"><b>$1,200 per year</b></div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
